@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Character Per Minutes</title>
+    <link rel="stylesheet" href="css/libs/materialize.min.css">
+    <link rel="stylesheet" href="css/libs/google-fonts.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="principal.html" class="brand-logo"><i class="material-icons">keyboard</i>WoPeMi</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="TechnologiesApplied.html">Technologies Applied</a></li>
+                <li><a href="SourceCode.html">Source Code</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <h1>WORDS PER MINUTES</h1>
+        <p id="logoh1">l</p>
+
+        <p class="frase">Mary asked Tom what he thought of her dress, but he knew better than to tell her what he really
+            thought.</p>
+
+        <ul class="informacoes">
+            <li>
+                <i class="small material-icons">description</i>
+                <span id="tamanho-frase"></span> words
+            </li>
+            <li id="segundos-tempo-digitacao">
+                <i class="small material-icons icones">query_builder</i>
+                <span id="tempo-digitacao"></span> seconds
+            </li>
+        </ul>
+
+
+        <textarea class="campo-digitacao" rows="8" cols="40" placeholder=" type here to start"></textarea>
+
+        <div class="buttons">
+            <a id="botao-reiniciar" class="waves-effect waves-light btn-small  lighten-5"><i
+                    class="material-icons left">play_circle_outline</i>New Game</a>
+        </div>
+
+        <ul class="informacoes-baixo">
+            <li><span id="contador-caracteres"></span> Characters</li>
+            <li><span id="contador-palavras"></span> Words</li>
+            <li id="pontuacao-destaque"><span id="pontuacao-total"> Words Per Minutes</li></span>
+        </ul>
+
+
+        <section class="placar">
+            <h3 class="center">ScoreBoard</h3>
+            <table class="centered bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </section>
+
+
+
+
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/scoreboard.js"></script>
+
+
+</body>
+
+</html>

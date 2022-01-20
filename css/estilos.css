@@ -1,0 +1,198 @@
+
+html{
+background: linear-gradient(-45deg, #ffc5c3, #f398b9, #d38ae3, #a99de5, #73a9e9);
+width: auto;
+height: 100%;
+color: #fff;
+background-size: 400% 400%;
+position: relative;
+animation: change 7s ease-in-out infinite;
+}
+body div h1{
+    font-family: archeo;
+    text-align: center;
+    font-size: 5rem;
+    color: #F7EBEC;
+}
+.placar h3{
+    font-family: shocard;
+    color: #F7EBEC;
+    
+}
+div ul li{
+    font-size: 1.4rem;
+}
+body div p{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
+.informacoes{
+    text-align: center;
+}
+body div ul i{
+    vertical-align: middle;
+}
+body nav div li a{
+    font-size: 1.4rem;
+}
+   
+.campo-digitacao{
+    font-size: 1.2rem;
+    height: 0%;
+    border-radius: 7px;
+    background-color: rgba(233, 229, 229, 0.486);
+    padding: 10px;
+    border: 2px solid transparent;
+    outline: none;
+    font-family: helvetica;
+    font-size: 20px;
+    line-height: 1.4;
+    box-shadow: 10px 5px 25px rgba(0, 0, 0, 0.452);
+    transition: all 0.3s;
+}
+.campo-digitacao:hover{
+    background-color: rgba(247, 241, 241, 0.568);;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.616);    
+}
+.informacoes-baixo li{
+    text-align: right;
+    font-size: 1.2rem;
+}
+nav{
+    background: rgba(0,0,0,0.2);
+}
+.nav-wrapper{
+    position: absolute;z-index:999999999;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.buttons a{
+    background: rgba(0,0,0,0.2);
+}
+::placeholder{
+    color:rgb(255, 254, 254) ;
+    opacity: 1;
+    text-shadow: 4px 3px 8px #414040;
+}
+p, li, h3, th, tr, h1, h2{
+text-shadow: 4px 3px 8px #414040;
+}
+p, li, h3, th, tr, h2{
+font-family: roboto-light;
+color: #F7EBEC;
+}
+#logoh1{
+    font-family: animals;
+    font-size: 3rem;
+}
+
+/*Modificadores Ocasionais*/
+
+.textared{
+    background-color: rgb(156, 156, 156);
+}
+
+.campo-correto{
+    border: 5px solid rgb(84, 212, 84);
+}
+.campo-errado{
+    border: 5px solid red;
+}
+
+.destaca-resultado{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+#sourceCodeAll{
+    text-align: center;
+}
+
+.div-logos{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoJquery, #logoMateria{
+height: auto;
+width: auto;
+max-width: 250px;
+max-height: 250px;
+margin: 2% 5%;
+
+}
+
+/* keyframes */
+
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+/* fontes */
+
+@font-face {
+    font-family: type1;
+    src: url(../fonts/KeyCapsFLF.ttf);
+}
+
+@font-face {
+    font-family: type2;
+    src: url(../fonts/TypewriterKeys.ttf);
+}
+
+@font-face{
+    font-family: animals;   
+    src: url(../fonts/3DAnimals.ttf)
+}
+
+@font-face {
+    font-family: offset;
+    src: url(../fonts/OffsettDemoRegular.ttf);
+}
+
+@font-face {
+    font-family: wedgie;
+    src: url(../fonts/Wedgie\ Regular.ttf);
+}
+
+@font-face {
+    font-family: dlet;
+    src: url(../fonts/3dlet.ttf);
+}
+
+@font-face {
+    font-family: archeo;
+    src: url(../fonts/Architypogra.ttf);
+}
+
+@font-face {
+    font-family: cube;
+    src: url(../fonts/Cube.ttf);
+}
+
+@font-face {
+    font-family: shocard;
+    src: url(../fonts/Sho-CardCapsNF.ttf);
+}
+
+@font-face {
+    font-family: roboto-light ;
+    src: url(../fonts/ROBOTOMEUCHAPA/RobotoCondensed-Light.ttf);
+}
+
+
+
+
+
